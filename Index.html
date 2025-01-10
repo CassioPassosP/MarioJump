@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+   
+   <link rel="icon" type="image/png" href="Images/jogo.png"/>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="./css/Style.module.css">
+   <script src="./Js/Script.js" defer></script>
+
+   <title>Mario Jump</title>
+</head>
+<body>
+
+   <audio id="jumpAudio">
+      <source src="./Audio/jump.mp3" type="audio/mpeg">
+   </audio>
+
+   <audio id="myAudio">
+      <source src="./Audio/mario morrendo.mp3" type="audio/mpeg">
+   </audio>
+
+   <audio autoplay id="musica">
+      <source src="./Audio/mario musica.mp3" type="audio/mpeg">
+   </audio>
+
+   <img src="./Images/fundo.jpg" class="fundo">
+
+   <div class="Game-board">
+
+      <img src="./Images/pipe.png" class="pipe">
+
+      <img src="./Images/clouds.png" class="clouds">
+
+      <img src="./Images/mario.gif" class="mario">
+
+      <h1 id="textoReinicio" 
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" 
+      rel="stylesheet">
+      Aperte qualquer tecla para reiniciar :) </h1>
+
+      <h1 id="contagem">0</h1>
+
+   </div>
+
+</body>
+</html>
