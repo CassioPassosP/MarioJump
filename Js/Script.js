@@ -57,7 +57,7 @@ const loop = setInterval( () => {
         mario.style.height= '75px';
         mario.style.marginLeft = '50px';
         mario.classList.remove('jump'); // remove animacao de pulo     
-        mario.src = './Images/super-mario-world-game-over.gif'; // muda para mario abatido
+        mario.src = '../Images/super-mario-world-game-over.gif'; // muda para mario abatido
         mario.classList.add('gameover');  // adiciona a animacao do mario caindo   
         setTimeout(() => {
     
