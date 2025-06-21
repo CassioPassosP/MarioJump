@@ -26,10 +26,6 @@ Super Mario Jump/
 
 └── MarioJump/ ← Subpasta com outra instância do jogo
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## 🚀 Como Jogar
