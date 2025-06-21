@@ -7,6 +7,7 @@ Um jogo simples feito com HTML, CSS e JavaScript, inspirado no clássico Super M
 ## 📂 Estrutura do Projeto
 
 Super Mario Jump/
+
 │
 
 ├── Index.html ← Página principal do jogo
