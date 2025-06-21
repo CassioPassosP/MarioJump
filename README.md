@@ -8,13 +8,21 @@ Um jogo simples feito com HTML, CSS e JavaScript, inspirado no clássico Super M
 
 Super Mario Jump/
 │
+
 ├── Index.html ← Página principal do jogo
+
 ├── Js/
+
 │ └── Script.js ← Lógica do jogo
+
 ├── css/
+
 │ └── Style.module.css ← Estilos do jogo
+
 ├── Images/ ← Imagens do jogo (Mario, canos, fundo, etc.)
+
 ├── Audio/ ← Efeitos sonoros (pulo, morte, música de fundo)
+
 └── MarioJump/ ← Subpasta com outra instância do jogo
 
 yaml
