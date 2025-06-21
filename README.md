@@ -66,8 +66,6 @@ Super Mario Jump/
 ---
 
 ## 📌 Observações
-
-- O projeto contém uma **pasta duplicada `MarioJump/`**, com os mesmos arquivos. Pode ser uma cópia de segurança ou versão alternativa.
 - Ideal para ser usado como base de estudos em JavaScript e animações com CSS.
 
 ---
