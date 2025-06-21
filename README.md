@@ -1,63 +1,73 @@
-🕹️ Super Mario Jump
-Um jogo simples feito com HTML, CSS e JavaScript, inspirado no clássico Super Mario. O objetivo é ajudar o Mario a pular os canos e sobreviver o maior tempo possível, acumulando pontos enquanto evita obstáculos.
+# 🕹️ Super Mario Jump
 
-📂 Estrutura do Projeto
-java
-Copiar
-Editar
+Um jogo simples feito com HTML, CSS e JavaScript, inspirado no clássico Super Mario. O objetivo é ajudar o Mario a **pular os canos** e sobreviver o maior tempo possível, acumulando pontos enquanto evita obstáculos.
+
+---
+
+## 📂 Estrutura do Projeto
+
 Super Mario Jump/
 │
-├── Index.html                      ← Página principal do jogo
+├── Index.html ← Página principal do jogo
 ├── Js/
-│   └── Script.js                   ← Lógica do jogo
+│ └── Script.js ← Lógica do jogo
 ├── css/
-│   └── Style.module.css            ← Estilos do jogo
-├── Images/                         ← Imagens do jogo (Mario, canos, fundo, etc.)
-├── Audio/                          ← Efeitos sonoros (pulo, morte, música de fundo)
-└── MarioJump/                      ← Subpasta com outra instância do jogo
-🚀 Como Jogar
-Abra o arquivo Index.html no seu navegador (Chrome, Firefox, etc).
+│ └── Style.module.css ← Estilos do jogo
+├── Images/ ← Imagens do jogo (Mario, canos, fundo, etc.)
+├── Audio/ ← Efeitos sonoros (pulo, morte, música de fundo)
+└── MarioJump/ ← Subpasta com outra instância do jogo
 
-Pressione a tecla barra de espaço (espaço) para fazer o Mario pular.
+yaml
+Copiar
+Editar
 
-Evite os canos!
+---
 
-Se bater, a animação de "game over" será exibida.
+## 🚀 Como Jogar
 
-Tente bater seu recorde a cada tentativa.
+1. **Abra o arquivo `Index.html`** no seu navegador (Chrome, Firefox, etc).
+2. Pressione a tecla **barra de espaço** (`espaço`) para fazer o Mario pular.
+3. **Evite os canos!**
+4. Se bater, a animação de "game over" será exibida.
+5. Tente bater seu recorde a cada tentativa.
 
-🛠️ Tecnologias Usadas
-HTML5
+---
 
-CSS3 (com uso de animações)
+## 🛠️ Tecnologias Usadas
 
-JavaScript puro
+- HTML5
+- CSS3 (com uso de animações)
+- JavaScript puro
+- Áudio integrado com efeitos e música de fundo
+- Imagens e GIFs para ambientação visual
 
-Áudio integrado com efeitos e música de fundo
+---
 
-Imagens e GIFs para ambientação visual
+## 📦 Recursos Visuais e Sonoros
 
-📦 Recursos Visuais e Sonoros
-mario.gif, pipe.png, clouds.png: elementos visuais do jogo
+- `mario.gif`, `pipe.png`, `clouds.png`: elementos visuais do jogo
+- `jump.mp3`, `mario musica.mp3`, `mario morrendo.mp3`: efeitos sonoros
+- `game-over.png`, `super-mario-world-game-over.gif`: telas de fim de jogo
 
-jump.mp3, mario musica.mp3, mario morrendo.mp3: efeitos sonoros
+---
 
-game-over.png, super-mario-world-game-over.gif: telas de fim de jogo
+## ✨ Funcionalidades
 
-✨ Funcionalidades
-Detecção de colisões com obstáculos
+- Detecção de colisões com obstáculos
+- Pulo do personagem ao pressionar a tecla
+- Sons sincronizados com ações do jogo
+- Reinício automático após colisão
 
-Pulo do personagem ao pressionar a tecla
+---
 
-Sons sincronizados com ações do jogo
+## 📌 Observações
 
-Reinício automático após colisão
+- O projeto contém uma **pasta duplicada `MarioJump/`**, com os mesmos arquivos. Pode ser uma cópia de segurança ou versão alternativa.
+- Ideal para ser usado como base de estudos em JavaScript e animações com CSS.
 
-📌 Observações
-O projeto contém uma pasta duplicada MarioJump/, com os mesmos arquivos. Pode ser uma cópia de segurança ou versão alternativa.
+---
 
-Ideal para ser usado como base de estudos em JavaScript e animações com CSS.
+## 👨‍💻 Autor
 
-👨‍💻 Autor
-Cassio Passos
+**Cassio Passos**  
 Desenvolvido como exercício prático de lógica, front-end e interação com o usuário.
